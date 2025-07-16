@@ -93,7 +93,7 @@ export const services: Service[] = [
     id: 'haeckselgut-transport',
     title: 'Häckselgut-Transport',
     description: 'Transport von Häckselgut mit 40-Kubik-Häckselwagen',
-    image: '/images/maschinen/haeckselwagen-40-kubik.jpg',
+    image: '/images/maschinen/placeholder.jpg',
     category: 'transport',
     details: [
       '40-Kubik-Häckselwagen',

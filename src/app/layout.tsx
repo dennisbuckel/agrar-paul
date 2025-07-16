@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   keywords: 'Landwirtschaft Leipzig, Traktor mieten Leipzig, Pflanzenschutz Sachsen, Düngung Leipzig, Transport Leipzig, Winterdienst Leipzig, John Deere Leipzig, Agrardienstleistungen Sachsen, Landwirt Leipzig, Paul Hantusch, Bodenbearbeitung Leipzig, Häckselgut Transport, Schüttgut Transport Leipzig',
   authors: [{ name: 'Paul Hantusch - Landwirtschaftsbetrieb Leipzig' }],
   robots: 'index, follow',
+  icons: {
+    icon: [
+      { url: '/favicon.png', type: 'image/png' },
+      { url: '/images/logo/logo.png', type: 'image/png' }
+    ],
+    shortcut: '/favicon.png',
+    apple: '/images/logo/logo.png'
+  },
   openGraph: {
     title: 'Landwirtschaftsbetrieb Paul Hantusch Leipzig - Agrardienstleistungen Sachsen',
     description: 'Professionelle landwirtschaftliche Dienstleistungen in Leipzig und Umgebung. John Deere Traktor, Pflanzenschutz, Düngung, Transport, Winterdienst.',
