@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-gray-50">
@@ -21,9 +23,11 @@ const Contact = () => {
             
             <div className="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
               <div className="flex-shrink-0">
-                <img 
-                  src="/images/maschinen/paul.jpg" 
+                <Image 
+                  src="/images/maschinen/Paul.jpg" 
                   alt="Paul - Ihr Ansprechpartner" 
+                  width={160}
+                  height={160}
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg"
                 />
               </div>

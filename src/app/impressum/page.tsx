@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Impressum - Landwirtschaftsbetrieb Paul Hantusch Leipzig',
@@ -13,15 +14,15 @@ export default function ImpressumPage() {
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
-            <a href="/" className="text-2xl font-bold text-green-600">
+            <Link href="/" className="text-2xl font-bold text-green-600">
               Landwirtschaftsbetrieb Paul Hantusch
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/" 
               className="text-gray-600 hover:text-green-600 transition-colors"
             >
               ← Zurück zur Startseite
-            </a>
+            </Link>
           </div>
         </div>
       </header>

@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import './globals.css';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Landwirtschaftsbetrieb Paul Hantusch Leipzig - Agrardienstleistungen Sachsen',
@@ -51,10 +54,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de" className="scroll-smooth">
-      <head>
-        <link rel="stylesheet" href="/fonts/inter.css" />
-      </head>
-      <body className="font-sans">
+      <body className={`${inter.className} font-sans`}>
         {children}
       </body>
     </html>

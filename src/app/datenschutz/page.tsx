@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Datenschutzerklärung - Landwirtschaftsbetrieb Paul Hantusch Leipzig',
@@ -30,7 +31,7 @@ export default function Datenschutz() {
               <h4 className="text-lg font-medium text-gray-800 mb-2">Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h4>
               <p>
                 Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten 
-                können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle" in dieser Datenschutzerklärung entnehmen.
+                können Sie dem Abschnitt &ldquo;Hinweis zur Verantwortlichen Stelle&rdquo; in dieser Datenschutzerklärung entnehmen.
               </p>
 
               <h4 className="text-lg font-medium text-gray-800 mb-2">Wie erfassen wir Ihre Daten?</h4>
@@ -260,7 +261,7 @@ export default function Datenschutz() {
                 Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, 
                 wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine 
                 SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die 
-                Adresszeile des Browsers von „http://" auf „https://" wechselt und an dem Schloss-Symbol in 
+                Adresszeile des Browsers von &ldquo;http://&rdquo; auf &ldquo;https://&rdquo; wechselt und an dem Schloss-Symbol in
                 Ihrer Browserzeile.
               </p>
               <p>
@@ -291,7 +292,7 @@ export default function Datenschutz() {
           </div>
 
           <div className="mt-8 text-center">
-            <a 
+            <Link 
               href="/"
               className="inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-300"
             >
@@ -299,7 +300,7 @@ export default function Datenschutz() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
               Zurück zur Startseite
-            </a>
+            </Link>
           </div>
         </div>
       </div>
