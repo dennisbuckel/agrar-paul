@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://landwirtschaft-paul-hantusch-leipzig.de/sitemap.xml
+
+# Crawl-delay für bessere Server-Performance
+Crawl-delay: 1
+
+# Spezifische Anweisungen für wichtige Suchmaschinen
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Blockiere unnötige Dateien
+Disallow: /_next/static/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /favicon.ico
